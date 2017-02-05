@@ -276,7 +276,7 @@ visualizer_color = blue, cyan, magenta
 ##   not available.
 ##
 #
-song_columns_list_format = (20)[blue]{a} (6f)[magenta]{NE} (50)[white]{t|f:Title} (20)[blue]{b} (7f)[magenta]{l}
+song_columns_list_format = (20)[blue]{a} (5f)[34]{NE} (50)[18]{t|f:Title} (20)[blue]{b} (7f)[34]{l}
 #
 ##### various settings #####
 #
@@ -495,35 +495,35 @@ display_bitrate = yes
 #
 colors_enabled = yes
 #
-empty_tag_color = blue
+#empty_tag_color = blue
 #
-header_window_color = default
+#header_window_color = default
 #
-volume_color = black
+#volume_color = black
 #
-state_line_color = blue
+state_line_color = 18
 #
-state_flags_color = blue
+#state_flags_color = blue
 #
-main_window_color = 40
+main_window_color = 18
 #
-color1 = black
+#color1 = black
 #
-color2 = blue
+#color2 = blue
 #
-main_window_highlight_color = 28
+main_window_highlight_color = 34
 #
-progressbar_color = black
+#progressbar_color = black
 #
 progressbar_elapsed_color = blue
 #
-statusbar_color = default
+#statusbar_color = default
 #
-alternative_ui_separator_color = black
+#alternative_ui_separator_color = black
 #
 active_column_color = blue
 #
-window_border_color = green
+window_border_color = black
 #
-active_window_border = red
+#active_window_border = red
 #
