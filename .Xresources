@@ -1,0 +1,22 @@
+! -------------------------------------------------------
+! ROFI Color theme					-
+! -------------------------------------------------------
+! Use extended color scheme
+rofi.color-enabled:                  true
+! Color scheme for normal row
+rofi.color-normal:                   #ffffff,#525d76,#f5f5f5,#0080ff,#f5f5f5
+! Color scheme for urgent row
+rofi.color-urgent:                   #ffffff,#dc322f,#f5f5f5,#5294e2,#dc322f
+! Color scheme for active row
+rofi.color-active:                   #ffffff,#,#f5f5f5,#5294e2,#
+! Color scheme window
+rofi.color-window:                   #ffffff,#eeeeee
+! Separator style (none, dash, solid)
+rofi.separator-style:                solid
+rofi.font: 			     Roboto       12
+
+
+!-----------------------------------------------------
+! Powerline
+!----------------------------------------------------
+! XTerm*faceName: DejaVu Sans Mono for Powerline 
