@@ -7,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="random"
+ZSH_THEME="adben"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -82,6 +82,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias mydotfiles="git --git-dir=$HOME/.mydotfiles --work-tree=$HOME"
+alias emerge="emerge --ask"
 
 # Startup
 export XDG_RUNTIME_DIR=/tmp
