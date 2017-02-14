@@ -83,6 +83,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias mydotfiles="git --git-dir=$HOME/.mydotfiles --work-tree=$HOME"
 alias emerge="emerge --ask"
+alias ll="ls -al"
 
 # Startup
 export XDG_RUNTIME_DIR=/tmp
