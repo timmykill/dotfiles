@@ -1,0 +1,2 @@
+CPU_FLAGS_X86="... aes mabm mcx16 mlzcnt msahf popcnt sse sse2 sse3 sse4.1 sse4.2 ssse3"
+CFLAGS="... -march=broadwell --param l1-cache-line-size=64 --param l1-cache-size=32 --param l2-cache-size=6144"
