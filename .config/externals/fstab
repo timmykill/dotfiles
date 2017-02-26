@@ -23,11 +23,20 @@
 #       documentation for details on setting a label. To obtain the UUID, use
 #       the blkid(8) command.
 
-/dev/sdb2		/boot		ext2		defaults,noatime	1 2
-/dev/sdb3		/		ext4		noatime			0 1
+UUID="4cc15efe-908c-4014-bd93-17b9c36ed83b"	/boot		ext2		defaults,noatime	1 2
+UUID="2c43aa01-490d-4649-a928-e650e5c4471e"	/		ext4		noatime			0 1
 
 
 # mydotfiles
 /etc/portage            /home/timmykill/.config/externals/portage       none    defaults,bind   0 0
 /etc/fstab	        /home/timmykill/.config/externals/fstab		none    defaults,bind   0 0
 
+# Backup Disk
+UUID="d59a33cb-4d42-4dfc-b2e3-9e167d9b8fee"	/media/Backup		ext4		defaults	0 0
+UUID="3f90dd90-bc30-4bcd-abc3-40b364a4d4b2"	/media/Archivio		ext4		defaults	0 0
+
+#Archivio
+/media/Archivio            /export/Archivio       none    defaults,bind   0 0
+
+#Portage in RAM
+tmpfs /var/tmp/portage tmpfs size=4G,uid=portage,gid=portage,mode=775,noatime	0 0
