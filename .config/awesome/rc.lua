@@ -39,7 +39,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init("/usr/share/awesome/themes/default/theme.lua")
+beautiful.init("~/.config/awesome/themes/lain/theme.lua")
 
 
 -- This is used later as the default terminal and editor to run.
@@ -273,8 +273,6 @@ globalkeys = awful.util.table.join(
 	 awful.util.spawn("rofi -show drun") end),
    awful.key({ modkey,         }, "Tab",    function ()
 	 awful.util.spawn("rofi -show window") end),
-   awful.key({ }, "XF86MonBrightnessUp",    function ()
-	 awful.util.spawn("xbacklight -inc 5") end),
    awful.key({ }, "XF86MonBrightnessDown",    function ()
 	 awful.util.spawn("xbacklight -dec 5") end),
    awful.key({ modkey, "Shift"}, "Return",    function ()
@@ -328,7 +326,7 @@ globalkeys = awful.util.table.join(
 
 clientkeys = awful.util.table.join(
    awful.key({ modkey,           }, "f",      function (c) c.fullscreen = not c.fullscreen  end),
-   awful.key({ modkey, "Shift"   }, "c",      function (c) c:kill()                         end),
+   awful.key({ modkey, "Control"   }, "c",      function (c) c:kill()                         end),
    awful.key({ modkey, "Control" }, "space",  awful.client.floating.toggle                     ),
    awful.key({ modkey, "Control" }, "Return", function (c) c:swap(awful.client.getmaster()) end),
    awful.key({ modkey,           }, "o",      awful.client.movetoscreen                        ),
@@ -416,8 +414,8 @@ awful.rules.rules = {
    { rule = { class = "gimp" },
      properties = { floating = true } },
    -- Set Firefox to always map on tags number 2 of screen 1.
-   -- { rule = { class = "Firefox" },
-   --   properties = { tag = tags[1][2] } },
+    { rule = { class = "Firefox" },
+      properties = { floating = false } },
 }
 -- }}}
 

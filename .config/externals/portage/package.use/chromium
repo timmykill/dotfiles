@@ -1,1 +1,1 @@
-www-client/chromium widewine
+www-client/chromium -debian inox gtk3 -ungoogled -iridium -widewine -proprietary-codecs

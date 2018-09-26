@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/timmykill/.oh-my-zsh
+  export ZSH=/usr/share/oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -84,6 +84,7 @@ source $ZSH/oh-my-zsh.sh
 alias mydotfiles="git --git-dir=$HOME/.mydotfiles --work-tree=$HOME"
 alias emerge="emerge --ask"
 alias ll="ls -al"
+alias cduni="cd ~/Documenti/Scuola/Università/Appunti/"
 
 # Startup
 export XDG_RUNTIME_DIR=/tmp
