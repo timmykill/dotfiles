@@ -1,1 +1,1 @@
-media-video/ffmpeg aac aacplus faac fdk gnutils jpeg2k mp3 opengl opus twolame v41 vaapi vorbis vpx wavpack x264 x265 webp openssl gnutls securetransport
+media-video/ffmpeg aac aacplus faac fdk gnutils jpeg2k mp3 opengl opus twolame v41 vdpau vorbis vpx wavpack x264 x265 webp openssl gnutls securetransport
