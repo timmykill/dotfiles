@@ -1,0 +1,11 @@
+root=/home/timmykill/
+root=ssh://root@phx//media/nas/Backup/home/
+
+ignore = Name .*
+ignore = Path yolo.png
+ignore = Path Programmi
+ignore = Path Musica
+ignore = Path ISO
+
+ignore = Path {unison.log}
+ignore = Path {dotfiles}
