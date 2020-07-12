@@ -43,7 +43,7 @@ beautiful.init("~/.config/awesome/themes/lain/theme.lua")
 
 
 -- This is used later as the default terminal and editor to run.
-terminal = "st -t 'Suckless Terminal'"
+terminal = "alacritty"
 editor = "nano"
 editor_cmd = terminal .. " -e " .. editor
 

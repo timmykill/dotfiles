@@ -1,1 +1,1 @@
-app-emulation/qemu gtk gtk2
+app-emulation/qemu gtk gtk2 spice qxl usb usbredir

@@ -2,3 +2,10 @@
 # required by media-sound/mpd-0.19.19::gentoo[-libav,ffmpeg]
 # required by mpd (argument)
 media-libs/fdk-aac FraunhoferFDK
+
+sys-firmware/intel-microcode intel-ucode
+
+sys-firmware/nvidia-firmware NVIDIA-r2
+
+dev-util/intel-ocl-sdk Intel-SDP
+

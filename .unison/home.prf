@@ -3,8 +3,9 @@ root=ssh://root@phx//media/nas/Backup/home/
 
 ignore = Name .*
 ignore = Path yolo.png
-ignore = Path Programmi
 ignore = Path Musica
+ignore = Path Victorious*
+ignore = Path Programmi/nosync
 ignore = Path ISO
 
 ignore = Path {unison.log}
