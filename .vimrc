@@ -10,7 +10,6 @@ set relativenumber
 " Backup file in /tmp
 set nobackup
 
-
 " Roba da gentoo, credo
 set nocompatible
 set backspace=indent,eol,start
