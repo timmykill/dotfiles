@@ -36,6 +36,8 @@ alias mdkir="mkdir"
 alias ll="ls -al"
 alias cduni="cd ~/Documenti/Uni/"
 alias ssh="TERM=xterm-256color ssh"
+alias feh="feh --keep-zoom-vp"
+alias wolp="wol 38:d5:47:19:43:c3 #portal"
 alias -s txt=vim
 alias -s png=feh
 alias -s jpg=feh
