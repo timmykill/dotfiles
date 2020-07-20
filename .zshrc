@@ -49,6 +49,12 @@ case `hostname` in
 		alias emerge="emerge --ask"
 		
 		# Superuser stuff
+		alias upall_nosync="
+			sudo mount -o remount,size=10G /var/tmp/portage/
+			sudo emerge --ask --newuse --update --deep --with-bdeps=y @world --jobs 2 --quiet-build
+			sudo emerge --depclean
+			sudo mount -o remount,size=4G /var/tmp/portage/
+		"
 		alias upall="
 			sudo mount -o remount,size=10G /var/tmp/portage/
 			sudo emerge --sync
