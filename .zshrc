@@ -38,6 +38,12 @@ alias cduni="cd ~/Documenti/Uni/"
 alias ssh="TERM=xterm-256color ssh"
 alias feh="feh --keep-zoom-vp"
 alias wolp="wol 38:d5:47:19:43:c3 #portal"
+toggle_touchpad(){
+	oldstate=$(synclient | grep TouchpadOff | rev | cut -d' ' -f1);
+	#dont know any better
+	if test $oldstate = "0"; then newstate="1"; else newstate="0"; fi
+	synclient TouchpadOff=$newstate
+}
 alias -s txt=vim
 alias -s png=feh
 alias -s jpg=feh
