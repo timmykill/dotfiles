@@ -54,7 +54,7 @@ alias -s pdf=xpdf
 case `hostname` in
 	'portal')
 		alias xpdf='firefox'
-		alias emerge="emerge --ask"
+		alias -g emerge="emerge --ask"
 		
 		# Superuser stuff
 		alias upall_nosync="
