@@ -228,29 +228,49 @@ awful.screen.connect_for_each_screen(function(s)
 -- Create the wibox
     s.mywibox = awful.wibar({ position = "top", screen = s })
 
-    -- Add widgets to the wibox
-    s.mywibox:setup {
-        layout = wibox.layout.align.horizontal,
-        { -- Left widgets
-            layout = wibox.layout.fixed.horizontal,
-            s.mytaglist,
-            s.mypromptbox,
-        },
-        s.mytasklist, -- Middle widget
-        { -- Right widgets
-            layout = wibox.layout.fixed.horizontal,
-            delimiter,
-			batterywidget,
-			delimiter,
-			tempwidget0,
-			halfdelimiter,
-			tempwidget1,
-			delimiter,
-			wibox.widget.systray(),
-            mytextclock,
-            s.mylayoutbox,
-        },
-    }
+	if hostname == "portal" then
+		-- Add widgets to the wibox
+		s.mywibox:setup {
+			layout = wibox.layout.align.horizontal,
+			{ -- Left widgets
+				layout = wibox.layout.fixed.horizontal,
+				s.mytaglist,
+				s.mypromptbox,
+			},
+			s.mytasklist, -- Middle widget
+			{ -- Right widgets
+				layout = wibox.layout.fixed.horizontal,
+				delimiter,
+				wibox.widget.systray(),
+				mytextclock,
+				s.mylayoutbox,
+			},
+		}
+	else
+		-- Add widgets to the wibox
+		s.mywibox:setup {
+			layout = wibox.layout.align.horizontal,
+			{ -- Left widgets
+				layout = wibox.layout.fixed.horizontal,
+				s.mytaglist,
+				s.mypromptbox,
+			},
+			s.mytasklist, -- Middle widget
+			{ -- Right widgets
+				layout = wibox.layout.fixed.horizontal,
+				delimiter,
+				batterywidget,
+				delimiter,
+				tempwidget0,
+				halfdelimiter,
+				tempwidget1,
+				delimiter,
+				wibox.widget.systray(),
+				mytextclock,
+				s.mylayoutbox,
+			},
+		}
+	end
 end)
 -- }}}
 

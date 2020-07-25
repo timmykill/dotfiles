@@ -1,0 +1,4 @@
+sys-libs/zlib minizip
+# required by x11-drivers/xf86-video-intel-2.99.917_p20200310::gentoo
+# required by xf86-video-intel (argument)
+>=x11-libs/libdrm-2.4.100 video_cards_intel
