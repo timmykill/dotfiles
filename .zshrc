@@ -24,6 +24,7 @@ export PATH="/home/timmykill/bin/:$PATH"
 export EDITOR='vim'
 export XDG_RUNTIME_DIR=/tmp/
 export XKB_DEFAULT_LAYOUT=it
+export ANSIBLE_NOCOWS=1
 
 
 # Global aliases
