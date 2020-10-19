@@ -133,8 +133,8 @@ mytextclock:set_format("%a %b %d | %H:%M ")
 batterywidget = awful.widget.watch('/bin/sh -c "acpi | cut -d, -f 2,3 - | cut -c2-11 | sed \'s/,/ |/\'"', 30);
 
 -- Create a temperature widget
-tempwidget0 = awful.widget.watch('/bin/sh -c "cat /sys/class/hwmon/hwmon0/temp2_input | cut -c1,2"', 10);
-tempwidget1 = awful.widget.watch('/bin/sh -c "cat /sys/class/hwmon/hwmon0/temp4_input | cut -c1,2"', 10);
+tempwidget0 = awful.widget.watch('/bin/sh -c "cat /sys/class/hwmon/hwmon3/temp2_input | cut -c1,2"', 10);
+tempwidget1 = awful.widget.watch('/bin/sh -c "cat /sys/class/hwmon/hwmon3/temp4_input | cut -c1,2"', 10);
 
 --- }}}
 
