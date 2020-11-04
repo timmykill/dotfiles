@@ -3,6 +3,12 @@ set tabstop=4
 set shiftwidth=4
 set autoindent
 
+" folding
+set foldmethod=indent
+set foldlevelstart=99
+nnoremap <space> za
+vnoremap <space> zf
+
 " Roba grafica
 syntax on
 set relativenumber
@@ -20,3 +26,5 @@ let g:tex_flavor='latex'
 if filereadable("/etc/vimrc.local")
   source /etc/vimrc.local
 endif
+
+
