@@ -12,6 +12,7 @@ vnoremap <space> zf
 " Roba grafica
 syntax on
 set relativenumber
+set nohlsearch
 
 " Backup file in /tmp
 set nobackup
