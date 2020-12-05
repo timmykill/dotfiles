@@ -28,6 +28,21 @@ let g:tex_flavor='latex'
 " Ide mode
 fun! IdeMode( arg ) "{{{
 	packadd coc.nvim-release
+	" Tab completion
+	inoremap <silent><expr> <TAB>
+		\ pumvisible() ? "\<C-n>" :
+		\ <SID>check_back_space() ? "\<TAB>" :
+		\ coc#refresh()
+	inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" :
+			"\<C-h>"
+
+	function! s:check_back_space() abort
+		let col = col('.') - 1
+		return !col || getline('.')[col - 1]  =~# '\s'
+	endfunction
+
+
+	"File explorer stuff
 	let g:netrw_banner = 0
 	let g:netrw_liststyle = 3
 	let g:netrw_browse_split = 4
