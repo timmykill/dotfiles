@@ -1,1 +1,1 @@
-../../var/db/repos/gentoo/profiles/default/linux/amd64/17.0/hardened
+../../var/db/repos/gentoo/profiles/default/linux/amd64/17.1/desktop

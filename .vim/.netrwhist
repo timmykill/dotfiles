@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/timmykill/Documenti/Uni/tekweb/react/esercit/my-app/src'
+let g:netrw_dirhist_8='/home/timmykill/Documenti/Uni/tekweb/react/esercit/my-app'
+let g:netrw_dirhist_7='/home/timmykill/Documenti/Uni/tekweb/react/esercit/my-app/src'
+let g:netrw_dirhist_6='/home/timmykill/Programmi/nosync/reti_di_controllo/4/prova/test_suite'
+let g:netrw_dirhist_5='/home/timmykill/Programmi/nosync/reti_di_controllo/4/prova/logs'
+let g:netrw_dirhist_4='/home/timmykill/Documenti/appunti/raspo_thingie/client'
+let g:netrw_dirhist_3='/home/timmykill/Programmi/nosync/cc-infra/ansible/roles/openvpn-client/tasks'
+let g:netrw_dirhist_2='/home/timmykill/Programmi/nosync/cc-infra/ansible/roles/openvpn-client'
+let g:netrw_dirhist_1='/home/timmykill/Programmi/nosync/cc-infra/ansible'
+let g:netrw_dirhist_0='/home/timmykill/Programmi/nosync/cc-infra/ansible/my_roles/my_ips'
