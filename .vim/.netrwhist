@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/timmykill'
 let g:netrw_dirhist_1='/home/timmykill/Documenti/Uni/tekweb/react/esercit/fetching-from-api/src'
 let g:netrw_dirhist_0='/home/timmykill/Documenti/Uni/tekweb/react/esercit/fetching-from-api/public'
 let g:netrw_dirhist_9='/home/timmykill/Documenti/Uni/tekweb/react/esercit/fetching-from-api'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_6='/home/timmykill/Documenti/Uni/tekweb/react/esercit/login/
 let g:netrw_dirhist_5='/home/timmykill/Documenti/Uni/tekweb/react/esercit/todoapp/src'
 let g:netrw_dirhist_4='/home/timmykill/Documenti/Uni/tekweb/react/esercit/todoapp'
 let g:netrw_dirhist_3='/home/timmykill/Documenti/Uni/tekweb/react/esercit/todoapp/src'
-let g:netrw_dirhist_2='/home/timmykill/Documenti/Uni/tekweb/react/esercit/todoapp'
