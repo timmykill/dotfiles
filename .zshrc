@@ -92,11 +92,18 @@ case `hostname` in
 
 		alias switch_to_intel="echo 0 | sudo tee /sys/class/vtconsole/vtcon1/bind > /dev/null && modprobe -r nouveau && modprobe i915"
 		alias switch_to_nouveau="echo 0 | sudo tee /sys/class/vtconsole/vtcon1/bind > /devu/null && modprobe -r i915 && modprobe nouveau"
+
+		# unison
+		alias usync="unison home"
 	;;
 	'elite')
 		alias mem='echo mem | sudo tee /sys/power/state > /dev/null'
+		# unison
+		alias usync="unison home"
 	;;
 	'worktop')
 		alias mem='echo mem | sudo tee /sys/power/state > /dev/null'
+		# unison
+		alias usync="unison work"
 	;;
 esac
