@@ -1,0 +1,8 @@
+root=/home/timmykill/
+root=ssh://root@tkanon.ninja:8022//media/nas/Backup/work_home/
+
+ignore = Name .*
+ignore = Path yolo.png
+ignore = Path Programmi/nosync
+
+ignore = Path {unison.log}
