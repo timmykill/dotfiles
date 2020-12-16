@@ -5,7 +5,10 @@ case `hostname` in
 		;;
 	'elite')
 		ZSH_THEME='candy'
-	;;
+		;;
+	'worktop')
+		ZSH_THEME='random'
+		;;
 esac
 if [[ `whoami` == 'root' ]]; then
     ZSH_THEME='gentoo'
@@ -91,6 +94,9 @@ case `hostname` in
 		alias switch_to_nouveau="echo 0 | sudo tee /sys/class/vtconsole/vtcon1/bind > /devu/null && modprobe -r i915 && modprobe nouveau"
 	;;
 	'elite')
+		alias mem='echo mem | sudo tee /sys/power/state > /dev/null'
+	;;
+	'worktop')
 		alias mem='echo mem | sudo tee /sys/power/state > /dev/null'
 	;;
 esac

@@ -68,6 +68,8 @@ if hostname == "portal" then
 elseif hostname == "elite" then
 	terminal = "/home/timmykill/.bin/st_lain -t 'Suckless Terminal'" 		--lain theme
 --	terminal = "/home/timmykill/.bin/st_material -t 'Suckless Terminal'" 	--material theme
+else
+	terminal = "xterm"
 end
 editor = "vim"
 editor_cmd = terminal .. " -e " .. editor
@@ -79,7 +81,7 @@ editor_cmd = terminal .. " -e " .. editor
 -- However, you can use another modifier like Mod1, but it may interact with others.
 if hostname == "portal" then
 	modkey = "Mod1"
-elseif hostname == "elite" then
+else 
 	modkey = "Mod4"
 end
 
