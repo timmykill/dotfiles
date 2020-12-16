@@ -24,6 +24,11 @@ set history=50
 set ruler
 let g:tex_flavor='latex'
 
+" gotta go fast
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
 
 " Ide mode
 fun! IdeMode( arg ) "{{{
