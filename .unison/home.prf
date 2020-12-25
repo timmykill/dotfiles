@@ -1,5 +1,6 @@
 root=/home/timmykill/
-root=ssh://root@tkanon.ninja:8022//media/nas/Backup/home/
+root=ssh://root@phx//media/nas/Backup/home/
+#root=ssh://root@tkanon.ninja:8022//media/nas/Backup/home/
 
 ignore = Name .*
 ignore = Path yolo.png
